@@ -1,0 +1,121 @@
+- !<AssetImportMetadata/90cece6f-10fd-4a90-94c9-0b759d590e51>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> a6e106b1-0c14-40f0-9de4-57accd219e47
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> a6e106b1-0c14-40f0-9de4-57accd219e47
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 50740a30-2ee9-42d5-99cd-258e82fe5993
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/50740a30-2ee9-42d5-99cd-258e82fe5993>
+  SourceRemaps:
+    - 12af56ae-98d7-4934-85d5-69b08f435c35: 9603864a-2c9c-425c-8985-168613c8b8d1
+    - 1d72be90-3f7b-4251-877f-ddb27faf09be: 809359e5-f1d1-4e11-93a1-aa2a65d74e4b
+    - 2d38ad7c-fe51-49e1-bcb6-d1bb9c22d3a7: cf816d54-706b-459d-b5b0-4cc88943f9d1
+    - 7426f88c-234d-4554-bc77-a7b391815704: ea2c49f5-5590-40c0-98e5-85def3074aa5
+    - 90de1e4a-ffa5-465d-8135-fc5516ae6d9f: 8e6c1a30-0131-4d67-a53c-fdc1b4fd938b
+    - a6e106b1-0c14-40f0-9de4-57accd219e47: 7abeee27-da8e-4f49-937b-acc1050b8c12
+    - d835268b-9862-475f-ad28-c7fd526b87dd: e43617f7-075f-4e87-9b9e-f78162947099
+  SourceState: !<own> 7abeee27-da8e-4f49-937b-acc1050b8c12
+- !<ObjectPrefab/7abeee27-da8e-4f49-937b-acc1050b8c12>
+  PackagePath: ""
+  objects:
+    - !<own> ea2c49f5-5590-40c0-98e5-85def3074aa5
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/809359e5-f1d1-4e11-93a1-aa2a65d74e4b>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> cf816d54-706b-459d-b5b0-4cc88943f9d1
+  Components:
+    - !<own> e43617f7-075f-4e87-9b9e-f78162947099
+- !<RenderMeshVisual/8e6c1a30-0131-4d67-a53c-fdc1b4fd938b>
+  PrefabRemaps:
+    []
+  Name: Side_Double_Arrows_Tile
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 61eb84bf-8540-4c94-a013-a4079e0c7c15
+  Mesh: !<reference> e2eee7a7-82a9-499f-b965-2502ea60aa4b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/9603864a-2c9c-425c-8985-168613c8b8d1>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 809359e5-f1d1-4e11-93a1-aa2a65d74e4b
+  Components:
+    []
+- !<SceneObject/cf816d54-706b-459d-b5b0-4cc88943f9d1>
+  PrefabRemaps:
+    []
+  Name: Side_Double_Arrows_Tile
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8e6c1a30-0131-4d67-a53c-fdc1b4fd938b
+- !<AnimationPlayer/e43617f7-075f-4e87-9b9e-f78162947099>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<SceneObject/ea2c49f5-5590-40c0-98e5-85def3074aa5>
+  PrefabRemaps:
+    []
+  Name: arrows_spectacles_updated
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9603864a-2c9c-425c-8985-168613c8b8d1
+  Components:
+    []

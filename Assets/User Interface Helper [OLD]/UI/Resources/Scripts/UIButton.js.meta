@@ -1,0 +1,142 @@
+- !<AssetImportMetadata/ff0805c6-a404-4c6f-891b-92bc7a2c369c>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 5e4fa040-bed1-4beb-b4bb-0f67f73d7c8d
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 5e4fa040-bed1-4beb-b4bb-0f67f73d7c8d
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    AssetLibraryId: 2AyovH41UH3UJ2Mf6RRbs0
+  AssetDataMap:
+    JavaScriptAsset: !<own> 88e64704-49b3-45b2-b73a-968ecb2ad471
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/88e64704-49b3-45b2-b73a-968ecb2ad471>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 5de31bda-5b8d-45af-88c9-a839c1c0e140
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    animation: false
+    backgroundObject: false
+    callbackType: false
+    customFunctionScript: false
+    disableTouchEvents: false
+    disabledAnchorPosition: false
+    disabledColor: false
+    disabledOffsetPosition: false
+    disabledRotation: false
+    disabledScale: false
+    disabledTexture: false
+    disabledTween: false
+    editAdvancedOptions: false
+    editAnimations: false
+    editConnections: false
+    editEventCallbacks: false
+    extraColorReceivers: false
+    interactable: false
+    normalAnchorPosition: false
+    normalColor: false
+    normalOffsetPosition: false
+    normalRotation: false
+    normalScale: false
+    normalTexture: false
+    normalTween: false
+    onPressBehaviors: false
+    onPressDownBehaviors: false
+    onPressDownFunctionNames: false
+    onPressDownGlobalBehaviors: false
+    onPressFunctionNames: false
+    onPressGlobalBehaviors: false
+    onPressUpBehaviors: false
+    onPressUpFunctionNames: false
+    onPressUpGlobalBehaviors: false
+    pressedAnchorPosition: false
+    pressedColor: false
+    pressedOffsetPosition: false
+    pressedRotation: false
+    pressedScale: false
+    pressedTexture: false
+    pressedTween: false
+    printDebugStatements: false
+    printWarningStatements: false
+    sceneObjectWithTweens: false
+    transformType: false
+    useColors: false
+    useTextures: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - interactable: true
+      useColors: true
+      normalColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      pressedColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      disabledColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      useTextures: true
+      normalTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      pressedTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      disabledTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      editAnimations: false
+      animation: 0
+      transformType: OffsetPosition
+      normalAnchorPosition: !<Vec2> {x: 0.000000, y: 0.000000}
+      pressedAnchorPosition: !<Vec2> {x: 0.000000, y: 0.000000}
+      disabledAnchorPosition: !<Vec2> {x: 0.000000, y: 0.000000}
+      normalOffsetPosition: !<Vec2> {x: 0.000000, y: 0.000000}
+      pressedOffsetPosition: !<Vec2> {x: 0.000000, y: 0.000000}
+      disabledOffsetPosition: !<Vec2> {x: 0.000000, y: 0.000000}
+      normalRotation: !<float> 0.000000
+      pressedRotation: !<float> 0.000000
+      disabledRotation: !<float> 0.000000
+      normalScale: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      pressedScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      disabledScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      sceneObjectWithTweens: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      normalTween: ""
+      pressedTween: ""
+      disabledTween: ""
+      editEventCallbacks: false
+      callbackType: 0
+      onPressDownBehaviors: !<reference.ScriptComponent[]>
+        []
+      onPressUpBehaviors: !<reference.ScriptComponent[]>
+        []
+      onPressBehaviors: !<reference.ScriptComponent[]>
+        []
+      onPressDownGlobalBehaviors: !<string[]>
+        []
+      onPressUpGlobalBehaviors: !<string[]>
+        []
+      onPressGlobalBehaviors: !<string[]>
+        []
+      customFunctionScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      onPressDownFunctionNames: !<string[]>
+        []
+      onPressUpFunctionNames: !<string[]>
+        []
+      onPressFunctionNames: !<string[]>
+        []
+      editAdvancedOptions: false
+      printDebugStatements: false
+      printWarningStatements: true
+      disableTouchEvents: false
+      editConnections: false
+      backgroundObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      extraColorReceivers: !<reference.MaterialMeshVisual[]>
+        []
+  ScriptTypes:
+    -
+      {}

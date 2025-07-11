@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/144504b7-bf3f-4d25-8c50-65e7eef2a50c>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9718cc4e-9ac9-4d0d-8a29-4f63bd2677cb
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9718cc4e-9ac9-4d0d-8a29-4f63bd2677cb
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ef8ee6cf-84be-4992-ab43-23521030140e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ef8ee6cf-84be-4992-ab43-23521030140e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d12175d7-a4ed-4e90-8282-2e391db5a098
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    anchorController: false
+    anchorIndex: false
+    interactable: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - anchorController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      interactable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      anchorIndex: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.ScriptComponent anchorController
+    - // @input Component.ScriptComponent interactable
+    - // @input float anchorIndex

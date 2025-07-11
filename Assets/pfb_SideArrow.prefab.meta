@@ -1,0 +1,95 @@
+- !<AssetImportMetadata/27a1fb7f-ecb1-4570-8a63-a3f5127bf8e4>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> f5ddcbd7-1586-40d2-aa4c-b5ac65f93d65
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> f5ddcbd7-1586-40d2-aa4c-b5ac65f93d65
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 2f29bc32-020b-40d3-841a-eaf61e8f1012
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/2ead7873-5d19-4d64-889b-ee6e573bfe12>
+  PrefabRemaps:
+    []
+  Name: Side_Double_Arrows_Tile
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> edab0682-d596-416b-92e3-64377c6c6424
+- !<ObjectPrefabAssetData/2f29bc32-020b-40d3-841a-eaf61e8f1012>
+  SourceRemaps:
+    - 0063f434-8c74-4ec3-acf8-7deb45bf9473: edab0682-d596-416b-92e3-64377c6c6424
+    - dc8dd896-06da-4a99-8f86-5ef78ca3020e: 2ead7873-5d19-4d64-889b-ee6e573bfe12
+    - e65104d1-b920-4bf0-ba78-a467bb4dbda2: 4ece981d-16f3-4618-850a-48f3012849f1
+    - ed6609df-3ae1-46ee-9b5b-48f31d6abb46: a40b0f2e-dc06-473f-b797-bfcd31a2bd93
+    - f5ddcbd7-1586-40d2-aa4c-b5ac65f93d65: 4ce0811f-c891-488f-a73d-bc6751105c95
+  SourceState: !<own> 4ce0811f-c891-488f-a73d-bc6751105c95
+- !<ObjectPrefab/4ce0811f-c891-488f-a73d-bc6751105c95>
+  PackagePath: ""
+  objects:
+    - !<own> 4ece981d-16f3-4618-850a-48f3012849f1
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/4ece981d-16f3-4618-850a-48f3012849f1>
+  PrefabRemaps:
+    []
+  Name: pfb_SideArrow
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 3.000000, y: 3.000000, z: 3.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a40b0f2e-dc06-473f-b797-bfcd31a2bd93
+  Components:
+    []
+- !<SceneObject/a40b0f2e-dc06-473f-b797-bfcd31a2bd93>
+  PrefabRemaps:
+    []
+  Name: Side_Double_Arrows_Tile
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 45.000000, y: -90.000000, z: -135.000000}
+    scale: {x: 1.700000, y: 1.700000, z: 1.700000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2ead7873-5d19-4d64-889b-ee6e573bfe12
+  Components:
+    []
+- !<RenderMeshVisual/edab0682-d596-416b-92e3-64377c6c6424>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 61eb84bf-8540-4c94-a013-a4079e0c7c15
+  Mesh: !<reference> e5d86452-6f7b-4db0-b9bd-27932a48024f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

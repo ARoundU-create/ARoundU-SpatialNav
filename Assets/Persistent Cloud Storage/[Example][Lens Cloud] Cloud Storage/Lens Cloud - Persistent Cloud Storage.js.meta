@@ -1,0 +1,40 @@
+- !<AssetImportMetadata/16248c14-139b-446c-923c-4fda11cfbb10>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 55cb5570-50d5-4035-a0db-745ace2e1c1c
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 55cb5570-50d5-4035-a0db-745ace2e1c1c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    AssetLibraryId: 6QaN2c6MWfDek5eWa4HEVn
+  AssetDataMap:
+    JavaScriptAsset: !<own> 65b492e1-bc24-4500-8704-85eb4061683b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/65b492e1-bc24-4500-8704-85eb4061683b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c9fc5631-fb85-4e29-9c24-4ba3332a9c02
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    cloudStorageModule: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - cloudStorageModule: !<reference.CloudStorageModule> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

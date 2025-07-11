@@ -1,0 +1,173 @@
+- !<ObjectPrefab/e866c93d-1e3b-4a71-9dac-b9df17b94efc>
+  PackagePath: ""
+  objects:
+    - !<own> 6cef6e47-83a8-432a-9c97-69979a30c8d1
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/6cef6e47-83a8-432a-9c97-69979a30c8d1>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8dd260c4-2880-43d9-a292-e54127ef1413
+    - !<own> 76d602ea-4682-4225-a0b5-ccf46be4eeff
+- !<ScriptComponent/76d602ea-4682-4225-a0b5-ccf46be4eeff>
+  PrefabRemaps:
+    []
+  Name: UI Button
+  Enabled: true
+  ScriptAsset: !<reference> af306e63-01b3-4e35-85a6-c621675f77fb
+  ScriptInputsDefault:
+    interactable: true
+    text: true
+    useColors: true
+    normalColor: true
+    pressedColor: true
+    disabledColor: true
+    useTextures: true
+    normalTexture: true
+    pressedTexture: true
+    disabledTexture: true
+    editAnimations: true
+    animation: true
+    transformType: true
+    normalAnchorPosition: true
+    pressedAnchorPosition: true
+    disabledAnchorPosition: true
+    normalOffsetPosition: true
+    pressedOffsetPosition: true
+    disabledOffsetPosition: true
+    normalRotation: true
+    pressedRotation: true
+    disabledRotation: true
+    normalScale: true
+    pressedScale: true
+    disabledScale: true
+    sceneObjectWithTweens: true
+    normalTween: true
+    pressedTween: true
+    disabledTween: true
+    onPressDownBehaviors: true
+    onPressUpBehaviors: true
+    onPressBehaviors: true
+    onPressDownGlobalBehaviors: true
+    onPressUpGlobalBehaviors: true
+    onPressGlobalBehaviors: true
+    onPressUpFunctionNames: true
+    onPressFunctionNames: true
+    editConnections: true
+    backgroundPrefab: true
+    foregroundPrefab: true
+    textPrefab: true
+    editDebugSettings: true
+    printDebugStatements: true
+    printWarningStatements: true
+    disableTouchEventsInput: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      interactable: true
+      renderOrderOverride: 1
+      text: Button
+      useColors: true
+      normalColor: !<Vec4> {x: 0.999207, y: 0.988861, z: 0.016327, w: 1.000000}
+      pressedColor: !<Vec4> {x: 0.664225, y: 0.664240, z: 0.664225, w: 1.000000}
+      disabledColor: !<Vec4> {x: 0.500000, y: 0.500000, z: 0.500000, w: 0.500000}
+      useTextures: false
+      normalTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      pressedTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      disabledTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      editAnimations: false
+      animation: 0
+      transformType: OffsetPosition
+      normalAnchorPosition: !<Vec2> {x: 0.000000, y: 0.000000}
+      pressedAnchorPosition: !<Vec2> {x: 0.000000, y: 0.000000}
+      disabledAnchorPosition: !<Vec2> {x: 0.000000, y: 0.000000}
+      normalOffsetPosition: !<Vec2> {x: 0.000000, y: 0.000000}
+      pressedOffsetPosition: !<Vec2> {x: 0.000000, y: 0.000000}
+      disabledOffsetPosition: !<Vec2> {x: 0.000000, y: 0.000000}
+      normalRotation: !<float> 0.000000
+      pressedRotation: !<float> 0.000000
+      disabledRotation: !<float> 0.000000
+      normalScale: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      pressedScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      disabledScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      sceneObjectWithTweens: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      normalTween: ""
+      pressedTween: ""
+      disabledTween: ""
+      editEventCallbacks: true
+      callbackType: 3
+      onPressDownBehaviors: !<reference.ScriptComponent[]>
+        []
+      onPressUpBehaviors: !<reference.ScriptComponent[]>
+        []
+      onPressBehaviors: !<reference.ScriptComponent[]>
+        []
+      onPressDownGlobalBehaviors: !<string[]>
+        []
+      onPressUpGlobalBehaviors: !<string[]>
+        []
+      onPressGlobalBehaviors: !<string[]>
+        []
+      customFunctionScript: !<reference.ScriptComponent> 3c004d8b-671c-44c6-a946-b5da5efdad9c
+      onPressDownFunctionNames: !<string[]>
+        - onPressDown
+      onPressUpFunctionNames: !<string[]>
+        []
+      onPressFunctionNames: !<string[]>
+        []
+      editConnections: false
+      backgroundPrefab: !<reference.ObjectPrefab> 4f0a228a-39b3-4881-a54f-19c250823938
+      foregroundPrefab: !<reference.ObjectPrefab> aa5233d8-b9fb-45d5-a4b4-9c3115fc1073
+      textPrefab: !<reference.ObjectPrefab> 12501a3e-2e0b-432e-9fcd-287695978948
+      editDebugSettings: false
+      printDebugStatements: false
+      printWarningStatements: false
+      disableTouchEventsInput: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScreenTransform/8dd260c4-2880-43d9-a292-e54127ef1413>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000

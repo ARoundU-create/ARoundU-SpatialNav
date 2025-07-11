@@ -1,0 +1,138 @@
+- !<ObjectPrefab/4aa0209c-acc8-45c4-b2f5-e5c4f20c6859>
+  PackagePath: ""
+  objects:
+    - !<own> 7f961298-22ca-40c0-9300-d9995a0e1862
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/45e69cf1-1a95-416f-a773-c11367811189>
+  PrefabRemaps:
+    []
+  Name: Button
+  Enabled: true
+  ScriptAsset: !<reference> 2a5c3288-2e68-49ad-b35a-441186ca7bb1
+  ScriptInputsDefault:
+    editDebugSettings: true
+    printDebugStatements: true
+    printWarningStatements: true
+    setupTransform: true
+    fitBackground: true
+    center: true
+    content: true
+    iconInOnlyIcon: true
+    labelInLabelWithIcon: true
+    iconInLabelWithIcon: true
+    iconAlignment: true
+    labelColorInLabelWithIcon: true
+    backgroundColor: true
+    _renderOrder: true
+    onPressDownBehaviors: true
+    onPressUpBehaviors: true
+    onPressBehaviors: true
+    onPressDownCustomTriggers: true
+    onPressUpCustomTriggers: true
+    onPressCustomTriggers: true
+    onPressUpFunctions: true
+    onPressFunctions: true
+    textPrefab: true
+    iconPrefab: true
+    backgroundPrefab: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      editDebugSettings: false
+      printDebugStatements: false
+      printWarningStatements: true
+      interactable: true
+      setupTransform: false
+      fitBackground: false
+      center: !<Vec2> {x: 0.000000, y: 0.000000}
+      scale: !<float> 0.000000
+      customScale: 2.500000
+      content: 0
+      labelInOnlyLabel: Button
+      iconInOnlyIcon: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      labelInLabelWithIcon: ""
+      iconInLabelWithIcon: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      iconAlignment: 0
+      buttonColor: 4
+      labelColorInLabelOnly: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      labelColorInLabelWithIcon: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      backgroundColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      _renderOrder: 0
+      eventCallbacks: true
+      callbackType: 3
+      onPressDownBehaviors: !<reference.ScriptComponent[]>
+        []
+      onPressUpBehaviors: !<reference.ScriptComponent[]>
+        []
+      onPressBehaviors: !<reference.ScriptComponent[]>
+        []
+      onPressDownCustomTriggers: !<string[]>
+        []
+      onPressUpCustomTriggers: !<string[]>
+        []
+      onPressCustomTriggers: !<string[]>
+        []
+      customFunctionScript: !<reference.ScriptComponent> de64b95c-1e06-4cda-a764-1973b51e8d82
+      onPressDownFunctions: !<string[]>
+        - onPressDown
+      onPressUpFunctions: !<string[]>
+        []
+      onPressFunctions: !<string[]>
+        []
+      textPrefab: !<reference.ObjectPrefab> 1f73d39f-0632-4081-bd55-2e8fe70bd438
+      iconPrefab: !<reference.ObjectPrefab> e37df7ab-7711-4737-a8fc-3f5c911fe506
+      backgroundPrefab: !<reference.ObjectPrefab> 32dde00d-d472-4abb-9947-9edf23c62f3e
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/7f961298-22ca-40c0-9300-d9995a0e1862>
+  PrefabRemaps:
+    []
+  Name: Screen Transform 1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 20.000000, y: 20.000000, z: 20.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9c720f71-1147-47de-b9a1-b110775dd6fb
+    - !<own> 45e69cf1-1a95-416f-a773-c11367811189
+- !<ScreenTransform/9c720f71-1147-47de-b9a1-b110775dd6fb>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: true
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 20.000000, y: 20.000000, z: 20.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: false
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000

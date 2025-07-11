@@ -1,0 +1,41 @@
+- !<ObjectPrefab/aa8a8c8a-afb4-441e-a80a-dc56d65930ba>
+  PackagePath: ""
+  objects:
+    - !<own> 8ba1137c-b901-45d9-a56c-ec2aa4fe5b2c
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/8ba1137c-b901-45d9-a56c-ec2aa4fe5b2c>
+  PrefabRemaps:
+    []
+  Name: Nav
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 15.000000, y: 15.000000, z: 15.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c4f29015-de55-400b-a484-ae12c43dfc82
+- !<RenderMeshVisual/c4f29015-de55-400b-a484-ae12c43dfc82>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 61eb84bf-8540-4c94-a013-a4079e0c7c15
+  Mesh: !<reference> 375dd6b2-0fa1-402d-b7c3-23b64ce8cbce
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

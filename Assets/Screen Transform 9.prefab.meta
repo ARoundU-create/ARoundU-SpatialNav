@@ -1,0 +1,98 @@
+- !<AssetImportMetadata/0f20b8cd-036a-4751-baa1-3a9aabc31e30>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 84ad812c-ee0c-4956-8768-95b19b028407
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 84ad812c-ee0c-4956-8768-95b19b028407
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 1ddb2c1b-3ee9-41c1-a0e2-c8c8eaf08e61
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/1ddb2c1b-3ee9-41c1-a0e2-c8c8eaf08e61>
+  SourceRemaps:
+    - 6c0a9b5c-adfc-47f9-a80b-77a565f4898a: d26b7122-abf7-42b8-b8b4-4f0619f7f8a8
+    - 84ad812c-ee0c-4956-8768-95b19b028407: c35660b2-e775-49f3-9324-52b2bd5a738c
+    - 87b34b79-9952-4b3f-b386-e5faf2e51597: ebd7a18e-6408-47f5-af47-d988621f13a4
+    - 96f81ad7-08ad-4b7b-99e8-246abc2d6880: 7fe7eaaa-fc58-46b3-95b5-e950f70700c7
+  SourceState: !<own> c35660b2-e775-49f3-9324-52b2bd5a738c
+- !<SceneObject/7fe7eaaa-fc58-46b3-95b5-e950f70700c7>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 5.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 0.500000, y: 0.500000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ebd7a18e-6408-47f5-af47-d988621f13a4
+    - !<own> d26b7122-abf7-42b8-b8b4-4f0619f7f8a8
+- !<ObjectPrefab/c35660b2-e775-49f3-9324-52b2bd5a738c>
+  PackagePath: ""
+  objects:
+    - !<own> 7fe7eaaa-fc58-46b3-95b5-e950f70700c7
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/d26b7122-abf7-42b8-b8b4-4f0619f7f8a8>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: -8
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5e6e1132-90fd-4c58-86f9-eb992e6747f5
+  Mesh: !<reference> 9d7384d9-0215-4f75-8b03-f44096507d85
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScreenTransform/ebd7a18e-6408-47f5-af47-d988621f13a4>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: true
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 5.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 0.500000, y: 0.500000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: false
+  Anchor:
+    left: -1.000000
+    bottom: -0.850000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000

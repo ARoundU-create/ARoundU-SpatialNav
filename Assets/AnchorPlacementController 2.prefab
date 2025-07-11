@@ -1,0 +1,56 @@
+- !<ObjectPrefab/9eb437df-a569-4510-9223-2cb4ccf3979b>
+  PackagePath: ""
+  objects:
+    - !<own> b21b5b54-3546-4945-8141-521312be8376
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/b21b5b54-3546-4945-8141-521312be8376>
+  PrefabRemaps:
+    []
+  Name: AnchorPlacementController
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e0000f23-3f00-4db5-bcea-9094b747191b
+- !<ScriptComponent/e0000f23-3f00-4db5-bcea-9094b747191b>
+  PrefabRemaps:
+    []
+  Name: AnchorPlacementController
+  Enabled: true
+  ScriptAsset: !<reference> 3d8f81eb-4afc-4384-aa64-4ed795593bc6
+  ScriptInputsDefault:
+    pathPrefab: true
+    pathSegmentCount: true
+    segmentScale: true
+    pathStartYOffset: true
+    anchorHighlightScale: true
+    currentGroup: true
+    maxAnchorsPerGroup: true
+    menuPanel: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      anchorModule: !<MappingBased.AssignableType> 6ec6077e-3ae6-4f35-ad1a-ee6ff3c7c705
+      createAnchorButton: !<MappingBased.AssignableType_1> fd699ef6-4a52-4c72-8bc4-ff2b64d427f8
+      camera: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
+      prefab: !<reference.ObjectPrefab> a605ec29-30b6-4524-a040-87b82fc7cae6
+      glowMaterial: !<reference.Material> 436f93f1-4c24-43b4-b6da-c49bb50520a6
+      pathPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      pathSegmentCount: !<float> 5.000000
+      segmentScale: !<float> 2.000000
+      pathStartYOffset: -0.500000
+      anchorHighlightScale: 1.500000
+      currentGroup: !<float> 0.000000
+      maxAnchorsPerGroup: !<float> 5.000000
+      menuPanel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}

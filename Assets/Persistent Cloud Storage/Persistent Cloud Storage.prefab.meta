@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/6350a07a-57c5-4018-ad62-248e7bd99e3f>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 54f64ca3-161c-4d3b-aae8-fa0adb931559
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 54f64ca3-161c-4d3b-aae8-fa0adb931559
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    AssetLibraryId: 6QaN2c6MWfDek5eWa4HEVn
+  AssetDataMap:
+    ObjectPrefab: !<own> a929ec40-8d13-461d-a54f-d1b2c12c5460
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/3751721e-a22f-43cc-9e1a-20960b5a8cb8>
+  PrefabRemaps:
+    []
+  Name: Lens Cloud - Persistent Cloud Storage
+  Enabled: true
+  ScriptAsset: !<reference> 55cb5570-50d5-4035-a0db-745ace2e1c1c
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      cloudStorageModule: !<reference.CloudStorageModule> 2db6166b-417f-48f6-bf2e-be9a62fe76a1
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/4ab42184-a58e-43ed-ade7-5d18d4ababaf>
+  PrefabRemaps:
+    []
+  Name: Lens Cloud - Persistent Cloud Storage
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3751721e-a22f-43cc-9e1a-20960b5a8cb8
+- !<ObjectPrefab/8b5fe27f-4722-41ff-bd8b-91cfdd831e6c>
+  PackagePath: ""
+  objects:
+    - !<own> 4ab42184-a58e-43ed-ade7-5d18d4ababaf
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/a929ec40-8d13-461d-a54f-d1b2c12c5460>
+  SourceRemaps:
+    - 54f64ca3-161c-4d3b-aae8-fa0adb931559: 8b5fe27f-4722-41ff-bd8b-91cfdd831e6c
+    - 88db85ec-7705-470f-8ff7-4301fe780fcc: 3751721e-a22f-43cc-9e1a-20960b5a8cb8
+    - aa00a11d-e06c-403b-a0c8-7f9b0e1f7e3f: 4ab42184-a58e-43ed-ade7-5d18d4ababaf
+  SourceState: !<own> 8b5fe27f-4722-41ff-bd8b-91cfdd831e6c

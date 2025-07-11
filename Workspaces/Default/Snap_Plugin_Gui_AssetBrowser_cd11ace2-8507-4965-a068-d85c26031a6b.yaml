@@ -1,0 +1,199 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 193
+    values:
+      - AnchorPlacementController.ts
+      - Echopark.hdr
+      - Kitty/Kitty__ADD_TO_SCENE.prefab
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/.hidden
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/.hidden/blinn1.ss_graph
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/.hidden/white.jpg
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/BaseLayer.animationAsset
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/Kitty_NoLayer.prefab
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/Materials
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/Materials/blinn1.mat
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/Meshes
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/Meshes/collar_lo.mesh
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/Meshes/polySurface1.mesh
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/Meshes/polySurface2.mesh
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/Meshes/polySurface3.mesh
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/Meshes/polySurface4.mesh
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/Meshes/polySurface5.mesh
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/Meshes/polySurface6.mesh
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/Meshes/polySurface7.mesh
+      - Kitty/Resources/3D Objects/Kitty_NoLayer/Meshes/tag_lo.mesh
+      - Kitty/Resources/Materials
+      - Kitty/Resources/Materials/cat_pbr.mat
+      - Kitty/Resources/Shader
+      - Kitty/Resources/Shader/cat_pbr.ss_graph
+      - Kitty/Resources/Textures
+      - Kitty/Resources/Textures/cat_base_02.pvr
+      - Kitty/Resources/Textures/cat_normal_02.pvr
+      - Kitty/Resources/Textures/cat_param_02.pvr
+      - Mesh using ScanMaterial.prefab
+      - PBR 11.mat
+      - PBR 12.mat
+      - PBR 13.mat
+      - PBR 14.mat
+      - PBR 15.mat
+      - PBR 16.mat
+      - Persistent Cloud Storage
+      - ROOM HOME ASSETS 3D
+      - ROOM HOME ASSETS 3D/.hidden
+      - ROOM HOME ASSETS 3D/.hidden/Info Card Background.ss_graph
+      - ROOM HOME ASSETS 3D/.hidden/SpritePreset.lsmat.mat
+      - ROOM HOME ASSETS 3D/.hidden/SpritePreset1.lsmat.ss_graph
+      - ROOM HOME ASSETS 3D/.hidden/SpritePreset2.lsmat.mat
+      - ROOM HOME ASSETS 3D/.hidden/f_material.ss_graph
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/2D icono
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/2D icono/Imagen_logo.png
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Materials
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Materials/f_material.mat
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Materials/ph_material.mat
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/clock_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/clock_min_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/clock_sec_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/fridge1_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/fridge_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/handle_fridge_01_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/handle_lamp_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/lamp_01_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/lamp_02_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/lamp_l_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/pillow_01_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/pillow_02_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/plant_01_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/plant_02_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/plant_03_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/plant_04_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/plant_05_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/plant_06_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/plant_07_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/plant_08_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/pot_01_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/pot_02_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/sofa_l_01_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/sofa_l_02_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/sofa_l_03_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/sofa_l_04_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/sofa_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_01_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_02_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_03_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_04_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_02_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_03_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_04_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_05_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_06_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_07_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_08_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_09_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_10_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_small_02_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_small_03_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_small_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Textures
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Textures/1.png
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]"
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]/Fonts"
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]/Fonts/Lato-Bold.ttf"
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]/Fonts/Lato-Regular.ttf"
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]/Materials"
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]/Materials/Info Card Background.mat"
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]/Textures"
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]/Textures/BaseTex.png"
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]/Textures/Icon.png"
+      - ROOM HOME ASSETS 3D/RoomHome__PLACE_IN_OBJECTS_PANEL.prefab
+      - Red Panda
+      - Red Panda/RedPanda__ADD_TO_SCENE.prefab
+      - Red Panda/Resources
+      - Red Panda/Resources/3D Model
+      - Red Panda/Resources/3D Model/RedPanda.fbx
+      - Red Panda/Resources/3D Model/RedPanda.fbx/.hidden
+      - Red Panda/Resources/3D Model/RedPanda.fbx/.hidden/lambert2
+      - Red Panda/Resources/3D Model/RedPanda.fbx/.hidden/white
+      - Red Panda/Resources/3D Model/RedPanda.fbx/BaseLayer
+      - Red Panda/Resources/3D Model/RedPanda.fbx/Materials
+      - Red Panda/Resources/3D Model/RedPanda.fbx/Materials/lambert2
+      - Red Panda/Resources/3D Model/RedPanda.fbx/Meshes
+      - Red Panda/Resources/3D Model/RedPanda.fbx/Meshes/innertube_lo
+      - Red Panda/Resources/3D Model/RedPanda.fbx/Meshes/red_panda_lo
+      - Red Panda/Resources/3D Model/RedPanda.fbx/RedPanda
+      - Red Panda/Resources/Materials
+      - Red Panda/Resources/Materials/red_panda_pbr.mat
+      - Red Panda/Resources/Shaders
+      - Red Panda/Resources/Shaders/red_panda_pbr.ss_graph
+      - Red Panda/Resources/Textures
+      - Red Panda/Resources/Textures/red_panda_base.png
+      - Red Panda/Resources/Textures/red_panda_normal.png
+      - Red Panda/Resources/Textures/red_panda_param.png
+      - Scan Material/.hidden
+      - Scan Material/.hidden/ScanMaterial.ss_graph
+      - Scan Material/ScanMaterial.mat
+      - Spatial Anchors
+      - Spatial Anchors/package.native
+      - SpectaclesInteractionKit
+      - SpectaclesInteractionKit/package.native
+      - Speech Recognition
+      - Speech Recognition/package.native
+      - The Dreamy Fox
+      - The Dreamy Fox/Dreamy Fox Resources
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/.hidden
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/.hidden/body
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/.hidden/white
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/BaseLayer
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/Fox
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/Materials
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/Materials/body
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/Materials/hat
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/Materials/head
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/Materials/jacket
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/Materials/nose
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/Meshes
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/Meshes/Body_GEO
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/Meshes/Hat1_GEO
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/Meshes/Jacket_GEO
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/Meshes/head_GEO
+      - The Dreamy Fox/Dreamy Fox Resources/3D Objects/Fox.fbx/Meshes/nose_GEO
+      - The Dreamy Fox/Dreamy Fox Resources/Materials
+      - The Dreamy Fox/Dreamy Fox Resources/Materials/Tap To Set Random Color Materials
+      - The Dreamy Fox/Dreamy Fox Resources/Materials/Tap To Set Random Color Materials/fox_body.mat
+      - The Dreamy Fox/Dreamy Fox Resources/Materials/Tap To Set Random Color Materials/fox_head.mat
+      - The Dreamy Fox/Dreamy Fox Resources/Materials/Tap To Set Random Color Materials/fox_jacket.mat
+      - The Dreamy Fox/Dreamy Fox Resources/Materials/Tap To Set Random Color Materials/fox_nose.mat
+      - The Dreamy Fox/Dreamy Fox Resources/Shaders
+      - The Dreamy Fox/Dreamy Fox Resources/Shaders/fox_body.ss_graph
+      - The Dreamy Fox/Dreamy Fox Resources/Shaders/fox_jacket.ss_graph
+      - The Dreamy Fox/Dreamy Fox Resources/Shaders/fox_nose.ss_graph
+      - The Dreamy Fox/Dreamy Fox Resources/Textures
+      - The Dreamy Fox/Dreamy Fox Resources/Textures/Base.png
+      - The Dreamy Fox/Dreamy Fox Resources/Textures/body_base.pvr
+      - The Dreamy Fox/Dreamy Fox Resources/Textures/body_materialParams.pvr
+      - The Dreamy Fox/Dreamy Fox Resources/Textures/body_normal.pvr
+      - The Dreamy Fox/Dreamy Fox Resources/Textures/head_base.pvr
+      - The Dreamy Fox/Dreamy Fox Resources/Textures/head_normal.pvr
+      - The Dreamy Fox/Dreamy Fox Resources/Textures/jacket_base.pvr
+      - The Dreamy Fox/Dreamy Fox Resources/Textures/jacket_materialParams.pvr
+      - The Dreamy Fox/Dreamy Fox Resources/Textures/jacket_normal.pvr
+      - The Dreamy Fox/Dreamy Fox Resources/Textures/white.png
+      - The Dreamy Fox/Dreamy Fox__ADD_TO_SCENE.prefab
+      - Untitled TypeScript 5.ts
+      - Untitled TypeScript 6.ts
+      - Untitled TypeScript 7.ts
+      - Untitled TypeScript 8.ts
+      - "User Interface Helper [OLD]"
+      - arrows_spectacles_updated.glb
+      - arrows_spectacles_updated.glb/Meshes
+      - arrows_spectacles_updated.glb/Meshes/Side_Double_Arrows_Tile
+      - arrows_spectacles_updated.glb/arrows_spectacles_updated
+      - arrows_spectacles_updated.prefab
+      - pfb_SideArrow.prefab
+  options: 4

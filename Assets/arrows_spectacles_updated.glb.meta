@@ -1,0 +1,146 @@
+- !<AssetImportMetadata/e1444d41-ec15-4b18-833c-a1fd35626a9a>
+  ImportedAssetIds:
+    1c0d36009751f094: !<reference> 486e59cb-8195-492d-9543-e1715ad330c4
+    4a3e924fad0e2f27: !<reference> 3c7c3358-06df-4132-935c-056ce545efad
+    54b8c62479405669: !<reference> f703734e-815d-4648-8a8a-06aa6d5fa17f
+    66780cf3a4dcb2b8: !<reference> 34298f87-00ea-4f9c-8e36-586b30c39f7a
+    96f664b015fcd573: !<reference> 503afcbb-8584-447d-a13f-86bb040c9340
+    Meshes/Side_Double_Arrows_Tile: !<reference> e2eee7a7-82a9-499f-b965-2502ea60aa4b
+    Scene: !<reference> 0efa17f5-452d-4393-984c-4b8bd06499c9
+    f7823ed8e3d3f631: !<reference> 74222e10-ef61-4219-8de9-a9dcef7d7f08
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 0efa17f5-452d-4393-984c-4b8bd06499c9
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 5ed286bf-8c98-4a13-9d6f-9d9a6e5a25ee
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/30232559-1ea0-45cc-89ba-5ee9c73defca>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7823a40a-7501-4118-931d-9f1f5a9f0019
+  Components:
+    - !<own> 39758408-0276-4e03-946a-de20c28eb6ea
+- !<AnimationPlayer/39758408-0276-4e03-946a-de20c28eb6ea>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<ObjectPrefabAssetData/5ed286bf-8c98-4a13-9d6f-9d9a6e5a25ee>
+  SourceRemaps:
+    - 0efa17f5-452d-4393-984c-4b8bd06499c9: 7d80f680-49cb-4fc3-a43e-0d6ce2f6f4c2
+    - 34298f87-00ea-4f9c-8e36-586b30c39f7a: db80376d-a32e-4e86-bcb2-65c5129631e5
+    - 3c7c3358-06df-4132-935c-056ce545efad: 70eef8df-ab48-40d7-9652-c3acbe555fd4
+    - 486e59cb-8195-492d-9543-e1715ad330c4: 7823a40a-7501-4118-931d-9f1f5a9f0019
+    - 503afcbb-8584-447d-a13f-86bb040c9340: 30232559-1ea0-45cc-89ba-5ee9c73defca
+    - 74222e10-ef61-4219-8de9-a9dcef7d7f08: 39758408-0276-4e03-946a-de20c28eb6ea
+    - f703734e-815d-4648-8a8a-06aa6d5fa17f: 9a25e9de-e46f-4b5a-a2cc-e204c1adb28c
+  SourceState: !<own> 7d80f680-49cb-4fc3-a43e-0d6ce2f6f4c2
+- !<SceneObject/70eef8df-ab48-40d7-9652-c3acbe555fd4>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 30232559-1ea0-45cc-89ba-5ee9c73defca
+  Components:
+    []
+- !<SceneObject/7823a40a-7501-4118-931d-9f1f5a9f0019>
+  PrefabRemaps:
+    []
+  Name: Side_Double_Arrows_Tile
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9a25e9de-e46f-4b5a-a2cc-e204c1adb28c
+- !<ObjectPrefab/7d80f680-49cb-4fc3-a43e-0d6ce2f6f4c2>
+  PackagePath: ""
+  objects:
+    - !<own> db80376d-a32e-4e86-bcb2-65c5129631e5
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/9a25e9de-e46f-4b5a-a2cc-e204c1adb28c>
+  PrefabRemaps:
+    []
+  Name: Side_Double_Arrows_Tile
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> e2eee7a7-82a9-499f-b965-2502ea60aa4b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/db80376d-a32e-4e86-bcb2-65c5129631e5>
+  PrefabRemaps:
+    []
+  Name: arrows_spectacles_updated
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 70eef8df-ab48-40d7-9652-c3acbe555fd4
+  Components:
+    []

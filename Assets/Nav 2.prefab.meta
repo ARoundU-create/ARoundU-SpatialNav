@@ -1,0 +1,63 @@
+- !<AssetImportMetadata/0ad0bb3a-c831-4843-9bdd-e39cc620aad7>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 02518f02-8c74-48a4-b140-dbdde96fa81c
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 02518f02-8c74-48a4-b140-dbdde96fa81c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 790c53a3-1311-49d5-af58-ee3ea4d2ad6b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefab/1b15480d-bce7-4bab-acb1-f56ac0f83442>
+  PackagePath: ""
+  objects:
+    - !<own> d087c15e-2957-4f1b-94ba-9432cb7e2140
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/790c53a3-1311-49d5-af58-ee3ea4d2ad6b>
+  SourceRemaps:
+    - 02518f02-8c74-48a4-b140-dbdde96fa81c: 1b15480d-bce7-4bab-acb1-f56ac0f83442
+    - 1575d9ec-a560-4379-86da-6b5dcb356507: d087c15e-2957-4f1b-94ba-9432cb7e2140
+    - b9c24727-b661-4aa8-bd0e-f48ecd671d96: a768903f-1661-46f4-810d-5aebe671ef2d
+  SourceState: !<own> 1b15480d-bce7-4bab-acb1-f56ac0f83442
+- !<RenderMeshVisual/a768903f-1661-46f4-810d-5aebe671ef2d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 0.007843, z: 0.023529, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 963fb18b-bfd7-4b01-a57e-45cd1b3de36d
+  Mesh: !<reference> 375dd6b2-0fa1-402d-b7c3-23b64ce8cbce
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d087c15e-2957-4f1b-94ba-9432cb7e2140>
+  PrefabRemaps:
+    []
+  Name: Nav
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a768903f-1661-46f4-810d-5aebe671ef2d

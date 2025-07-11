@@ -1,0 +1,41 @@
+- !<ObjectPrefab/a605ec29-30b6-4524-a040-87b82fc7cae6>
+  PackagePath: ""
+  objects:
+    - !<own> f6fea8e2-a7cc-418c-ac5d-ead560ba6fb3
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/068f6c35-21ee-4e25-af5b-1ad8f4e49483>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0236e344-ce0b-468e-85e7-1723c61ae773
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f6fea8e2-a7cc-418c-ac5d-ead560ba6fb3>
+  PrefabRemaps:
+    []
+  Name: CubePrefab
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 068f6c35-21ee-4e25-af5b-1ad8f4e49483

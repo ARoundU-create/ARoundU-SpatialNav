@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/488d3051-443c-4dc4-a246-c1bdb8549e7c>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> f3c0ef08-3606-4595-a25f-81a3365da649
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> f3c0ef08-3606-4595-a25f-81a3365da649
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> d1360021-7661-4453-a1bb-40c8a7a89b7b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d1360021-7661-4453-a1bb-40c8a7a89b7b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e3d1b9b1-3968-46d6-b397-4256c9282d14
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    closeButton: false
+    instructionPanel: false
+    menuPanel: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - instructionPanel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      closeButton: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      menuPanel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject instructionPanel
+    - // @input AssignableType closeButton
+    - // @input SceneObject menuPanel

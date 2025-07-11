@@ -1,0 +1,95 @@
+- !<ObjectPrefab/a6e106b1-0c14-40f0-9de4-57accd219e47>
+  PackagePath: ""
+  objects:
+    - !<own> 7426f88c-234d-4554-bc77-a7b391815704
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/12af56ae-98d7-4934-85d5-69b08f435c35>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1d72be90-3f7b-4251-877f-ddb27faf09be
+  Components:
+    []
+- !<SceneObject/1d72be90-3f7b-4251-877f-ddb27faf09be>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2d38ad7c-fe51-49e1-bcb6-d1bb9c22d3a7
+  Components:
+    - !<own> d835268b-9862-475f-ad28-c7fd526b87dd
+- !<SceneObject/2d38ad7c-fe51-49e1-bcb6-d1bb9c22d3a7>
+  PrefabRemaps:
+    []
+  Name: Side_Double_Arrows_Tile
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 90de1e4a-ffa5-465d-8135-fc5516ae6d9f
+- !<SceneObject/7426f88c-234d-4554-bc77-a7b391815704>
+  PrefabRemaps:
+    []
+  Name: arrows_spectacles_updated
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 12af56ae-98d7-4934-85d5-69b08f435c35
+  Components:
+    []
+- !<RenderMeshVisual/90de1e4a-ffa5-465d-8135-fc5516ae6d9f>
+  PrefabRemaps:
+    []
+  Name: Side_Double_Arrows_Tile
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 61eb84bf-8540-4c94-a013-a4079e0c7c15
+  Mesh: !<reference> e2eee7a7-82a9-499f-b965-2502ea60aa4b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AnimationPlayer/d835268b-9862-475f-ad28-c7fd526b87dd>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []

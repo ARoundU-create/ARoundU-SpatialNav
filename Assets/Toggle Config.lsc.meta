@@ -1,0 +1,17 @@
+- !<AssetImportMetadata/95fdf8b0-d450-40b6-b71a-749a63a4e9c6>
+  ImportedAssetIds:
+    Toggle Config: !<reference> f54e29a9-8faf-4dac-80e5-52664c7480c7
+    TypeScriptAsset: !<reference> 13473902-d1ea-40b8-b8fd-6ce15555ee94
+  ImporterName: LensCoreImporter
+  PrimaryAsset: !<reference> f54e29a9-8faf-4dac-80e5-52664c7480c7
+  PackageType: LegacyPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<LensCoreImporterSettings>
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

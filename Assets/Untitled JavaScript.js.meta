@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/b41a98f2-9bb3-471d-a122-eec88d7a8aae>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 3acd083d-2cb1-4a5b-a5d3-a2476b9e7f75
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 3acd083d-2cb1-4a5b-a5d3-a2476b9e7f75
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 09cefb33-b1b6-4115-815a-69cb45245a95
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/09cefb33-b1b6-4115-815a-69cb45245a95>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a1644ee7-d4a4-4327-8a95-5dba464ff49d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    anchorController: false
+    anchorIndex: false
+    createButton: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - anchorController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      createButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      anchorIndex: 0
+  ScriptTypes:
+    -
+      {}

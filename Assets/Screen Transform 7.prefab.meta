@@ -1,0 +1,187 @@
+- !<AssetImportMetadata/7de0abfa-1b31-4dc5-8335-b1de662e8593>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> a76c1d19-c9cc-4c8f-92e5-8c93939e8888
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> a76c1d19-c9cc-4c8f-92e5-8c93939e8888
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 6c23e4a9-02fe-4be2-bebe-528b9f390dc4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/03a50d21-6403-435a-bfde-e425817b61d8>
+  PrefabRemaps:
+    []
+  Name: Layout Element
+  Enabled: true
+  ScriptAsset: !<reference> 17546647-aecf-4b5a-a49d-c1b02d83befd
+  ScriptInputsDefault:
+    minimumSize: true
+    maximumSize: true
+    growWeight: true
+    shrinkWeight: true
+    marginsVec: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      requestedSize: !<Vec2> {x: 5.000000, y: 0.000000}
+      minimumSize: !<Vec2> {x: 0.000000, y: 0.000000}
+      maximumSize: !<Vec2> {x: 0.000000, y: 0.000000}
+      growWeight: !<float> 1.000000
+      shrinkWeight: !<float> 1.000000
+      marginsVec: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+  ScriptTypes:
+    "":
+      {}
+- !<ScreenTransform/2f641ca4-2728-4c79-b408-dee8228f85ba>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: true
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 5.000000, y: 5.000000, z: 5.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: false
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<ScriptComponent/5166b60e-7cc2-4769-917c-6ea26592a808>
+  PrefabRemaps:
+    []
+  Name: Button
+  Enabled: true
+  ScriptAsset: !<reference> 2a5c3288-2e68-49ad-b35a-441186ca7bb1
+  ScriptInputsDefault:
+    editDebugSettings: true
+    printDebugStatements: true
+    printWarningStatements: true
+    setupTransform: true
+    center: true
+    content: true
+    iconInOnlyIcon: true
+    labelInLabelWithIcon: true
+    iconInLabelWithIcon: true
+    iconAlignment: true
+    labelColorInLabelWithIcon: true
+    backgroundColor: true
+    _renderOrder: true
+    onPressDownBehaviors: true
+    onPressUpBehaviors: true
+    onPressBehaviors: true
+    onPressDownCustomTriggers: true
+    onPressUpCustomTriggers: true
+    onPressCustomTriggers: true
+    onPressUpFunctions: true
+    onPressFunctions: true
+    textPrefab: true
+    iconPrefab: true
+    backgroundPrefab: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      editDebugSettings: false
+      printDebugStatements: false
+      printWarningStatements: true
+      interactable: true
+      setupTransform: false
+      fitBackground: true
+      center: !<Vec2> {x: 0.000000, y: 0.000000}
+      scale: !<float> 0.000000
+      customScale: 2.500000
+      content: 0
+      labelInOnlyLabel: Button
+      iconInOnlyIcon: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      labelInLabelWithIcon: ""
+      iconInLabelWithIcon: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      iconAlignment: 0
+      buttonColor: 4
+      labelColorInLabelOnly: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      labelColorInLabelWithIcon: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      backgroundColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      _renderOrder: 0
+      eventCallbacks: true
+      callbackType: 3
+      onPressDownBehaviors: !<reference.ScriptComponent[]>
+        []
+      onPressUpBehaviors: !<reference.ScriptComponent[]>
+        []
+      onPressBehaviors: !<reference.ScriptComponent[]>
+        []
+      onPressDownCustomTriggers: !<string[]>
+        []
+      onPressUpCustomTriggers: !<string[]>
+        []
+      onPressCustomTriggers: !<string[]>
+        []
+      customFunctionScript: !<reference.ScriptComponent> de64b95c-1e06-4cda-a764-1973b51e8d82
+      onPressDownFunctions: !<string[]>
+        - onPressDown
+      onPressUpFunctions: !<string[]>
+        []
+      onPressFunctions: !<string[]>
+        []
+      textPrefab: !<reference.ObjectPrefab> 1f73d39f-0632-4081-bd55-2e8fe70bd438
+      iconPrefab: !<reference.ObjectPrefab> e37df7ab-7711-4737-a8fc-3f5c911fe506
+      backgroundPrefab: !<reference.ObjectPrefab> 32dde00d-d472-4abb-9947-9edf23c62f3e
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/6a1499b7-3062-4177-bdcc-6d2cad3d9df4>
+  PrefabRemaps:
+    []
+  Name: Screen Transform 1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 5.000000, y: 5.000000, z: 5.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2f641ca4-2728-4c79-b408-dee8228f85ba
+    - !<own> 5166b60e-7cc2-4769-917c-6ea26592a808
+    - !<own> 03a50d21-6403-435a-bfde-e425817b61d8
+- !<ObjectPrefabAssetData/6c23e4a9-02fe-4be2-bebe-528b9f390dc4>
+  SourceRemaps:
+    - 1742a74c-7310-4170-91c1-d250cce3ffb6: 6a1499b7-3062-4177-bdcc-6d2cad3d9df4
+    - 48534c24-ac5f-4ed1-8a1f-a990f4e69c74: 5166b60e-7cc2-4769-917c-6ea26592a808
+    - a76c1d19-c9cc-4c8f-92e5-8c93939e8888: a08e59b6-d3c3-4f1a-b06c-16c7b90f775f
+    - ed86afd9-fdec-46d4-ba04-a05464212a2e: 03a50d21-6403-435a-bfde-e425817b61d8
+    - f31974bf-e7ff-43e1-8425-14cfca3e446a: 2f641ca4-2728-4c79-b408-dee8228f85ba
+  SourceState: !<own> a08e59b6-d3c3-4f1a-b06c-16c7b90f775f
+- !<ObjectPrefab/a08e59b6-d3c3-4f1a-b06c-16c7b90f775f>
+  PackagePath: ""
+  objects:
+    - !<own> 6a1499b7-3062-4177-bdcc-6d2cad3d9df4
+  LazyLoading: false
+  RetainAssets: true

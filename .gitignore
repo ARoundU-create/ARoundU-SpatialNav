@@ -1,0 +1,4 @@
+# Ignore Lens Studio temp/cache files
+Cache/
+PluginsUserPreferences/
+*.log

@@ -1,0 +1,60 @@
+- !<ObjectPrefab/70f4d082-0d82-416b-ad65-083d99dfeed9>
+  PackagePath: ""
+  objects:
+    - !<own> 5016e615-7e0b-4dc6-8fae-9c946f5efba1
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/26075d7f-4cc8-4b8b-9933-83dfdec2f150>
+  PrefabRemaps:
+    []
+  Name: Untitled TypeScript 5
+  Enabled: true
+  ScriptAsset: !<reference> c237a6d6-6c6a-4600-b00d-fae8fd537104
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      anchorController: !<MappingBased.AssignableType> 0eefff26-6eb9-4aa8-a68f-c61688b35bdf
+      button: !<MappingBased.AssignableType_1> 305062e5-f6d0-4c4a-a21b-8187a1a19fe0
+      anchorIndex: !<float> 1.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/5016e615-7e0b-4dc6-8fae-9c946f5efba1>
+  PrefabRemaps:
+    []
+  Name: ButtonMesh
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b0f73d3a-b782-4b6b-9a0a-e8a9f9bc9509
+    - !<own> 26075d7f-4cc8-4b8b-9933-83dfdec2f150
+- !<RenderMeshVisual/b0f73d3a-b782-4b6b-9a0a-e8a9f9bc9509>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5e6e1132-90fd-4c58-86f9-eb992e6747f5
+  Mesh: !<reference> 9d7384d9-0215-4f75-8b03-f44096507d85
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

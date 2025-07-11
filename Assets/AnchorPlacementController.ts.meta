@@ -1,0 +1,78 @@
+- !<AssetImportMetadata/28890dbc-9f1e-44d1-aeae-39ac473d7abe>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 3d8f81eb-4afc-4384-aa64-4ed795593bc6
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 3d8f81eb-4afc-4384-aa64-4ed795593bc6
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 026f2dd0-bd98-4690-8e9c-334906a80b23
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/026f2dd0-bd98-4690-8e9c-334906a80b23>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 7274d63e-543a-4114-affa-59f0c4c1563d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    anchorHighlightScale: false
+    anchorModule: false
+    camera: false
+    createAnchorButton: false
+    currentGroup: false
+    glowMaterial: false
+    maxAnchorsPerGroup: false
+    menuPanel: false
+    pathPrefab: false
+    pathSegmentCount: false
+    pathStartYOffset: false
+    prefab: false
+    segmentScale: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - anchorModule: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      createAnchorButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      camera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      glowMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      pathPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      pathSegmentCount: !<float> 5.000000
+      segmentScale: !<float> 2.000000
+      pathStartYOffset: -0.500000
+      anchorHighlightScale: 1.500000
+      currentGroup: !<float> 0.000000
+      maxAnchorsPerGroup: !<float> 5.000000
+      menuPanel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType anchorModule
+    - // @input AssignableType_1 createAnchorButton
+    - // @input SceneObject camera
+    - // @input Asset.ObjectPrefab prefab
+    - // @input Asset.Material glowMaterial
+    - // @input Asset.ObjectPrefab pathPrefab
+    - // @input float pathSegmentCount = 5
+    - // @input float segmentScale = 1
+    - // @input float pathStartYOffset = -0.5
+    - // @input float anchorHighlightScale = 1.5
+    - // @input float currentGroup
+    - // @input float maxAnchorsPerGroup = 5
+    - // @input SceneObject menuPanel
