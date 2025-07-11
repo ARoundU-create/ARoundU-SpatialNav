@@ -36,6 +36,7 @@ A spatial AR navigation system built using **Snapchat's Lens Studio** for **Spec
 
 ### Step 1: Download the Project
 ```bash
+You will have to install git lfs to clone this file
 git clone https://github.com/your-username/spatial-anchor-navigation.git
 cd spatial-anchor-navigation
 Step 2: Open in Lens Studio
