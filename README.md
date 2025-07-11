@@ -17,15 +17,15 @@ A spatial AR navigation system built using **Snapchat's Lens Studio** for **Spec
 
 ## 🗂️ Project Structure
 
-├── Assets/ # Project assets: anchor prefabs, arrow objects, UI
-├── Cache/ # Lens Studio temporary files (auto-generated)
-├── jsconfig.json # JavaScript project config
-├── Packages/ # Lens Studio packages or modules
-├── PluginsUserPreferences/ # Editor preferences (user-specific)
-├── Spatial Anchor.lsproj # 🚀 Main Lens Studio project file
-├── Support/ # Scripts, prefabs, utilities
-├── tsconfig.json # TypeScript configuration for Lens Studio
-├── Workspaces/ # Scene and layout setup
+- ├── Assets/ # Project assets: anchor prefabs, arrow objects, UI
+- ├── Cache/ # Lens Studio temporary files (auto-generated)
+- ├── jsconfig.json # JavaScript project config
+- ├── Packages/ # Lens Studio packages or modules
+- ├── PluginsUserPreferences/ # Editor preferences (user-specific)
+- ├── Spatial Anchor.lsproj # 🚀 Main Lens Studio project file
+- ├── Support/ # Scripts, prefabs, utilities
+- ├── tsconfig.json # TypeScript configuration for Lens Studio
+- ├── Workspaces/ # Scene and layout setup
 
 
 > ✅ **Open `Spatial Anchor.lsproj` in Lens Studio** to get started
